@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor">
+    <div class="caja-juego">
+
+        <div class="lado-izquierdo">
+            <img src="Mago.png" class="imagen-juego">
+        </div>
+
+        <div class="lado-derecho">
+            <h1>Juego del Número Secreto</h1>
+            <p>Coloca un número del 1 al 10:</p>
+
+            <input type="number" id="numero" placeholder="Escribe un número">
+
+            <div class="fila-botones">
+                <button id="btnIniciar" onclick="verificar()">Iniciar</button>
+                <button id="btnNuevo" onclick="nuevoJuego()">Nuevo Juego</button>
+            </div>
+
+            <p id="resultado"></p>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,79 @@
+body {
+    background: #29d978;
+    margin: 0;
+    font-family: Arial;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+
+}
+
+.caja-juego {
+    background: white;
+    width: 85%;
+    max-width: 800px;
+    display: flex;
+    border-radius: 25px;
+    padding: 40px;
+    gap: 5px;
+}
+
+.lado-izquierdo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-juego {
+    width: 260px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.lado-derecho {
+    flex: 1;
+    text-align: center;
+}
+
+#numero {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.fila-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#btnIniciar,
+#btnNuevo {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btnIniciar:hover,
+#btnNuevo:hover {
+    background-color: #1f8d38;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
